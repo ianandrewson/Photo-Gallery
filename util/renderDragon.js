@@ -1,5 +1,3 @@
-//import images from '../data/images.js';
-
 export const renderDragon = (animalToRender) => {
     let html = /*html*/`
     <article class="card ${animalToRender.keyword}">

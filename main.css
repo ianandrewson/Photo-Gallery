@@ -30,10 +30,11 @@ footer {
     border: 1px black solid;
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0%;
     padding: 10px;
+    background-color: white;
 }
 
 article {
@@ -42,7 +43,6 @@ article {
     width: 281.25px;
     height: 500px;
     border: 2px solid black;
-    height: auto;
     padding: 5px;
     margin: 5%;
 }
@@ -75,4 +75,9 @@ h3 {
 
 label {
     margin: 5px;
+}
+
+#display-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
