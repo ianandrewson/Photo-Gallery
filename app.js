@@ -11,7 +11,9 @@ filter.addEventListener('change', () => {
     }
     let filterChoice = filter.value;
     images.forEach(element => {
-        if (element.keyword === filterChoice) {
+        if (filterChoice === 'all') {
+            displayArea.appendChild(htmlToDOM(renderDragon(element)))
+        } else if (element.keyword === filterChoice) {
             displayArea.appendChild(htmlToDOM(renderDragon(element)));
         }
     });

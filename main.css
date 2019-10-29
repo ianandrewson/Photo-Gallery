@@ -6,6 +6,7 @@ header {
     display: flex;
     padding: 10px;
     border: 1px solid black;
+    background-color: white;
 }
 .logo {
     width: 150px;
@@ -24,6 +25,7 @@ header {
     font-size: 30px;
     display: flex;
     justify-content: center;
+    background-color: #d87f31;
 }
 
 footer {
@@ -40,11 +42,13 @@ footer {
 article {
     display: flex;
     flex-direction: column;
-    width: 281.25px;
+    width: 320px;
     height: 500px;
     border: 2px solid black;
     padding: 5px;
-    margin: 5%;
+    margin: 8%;
+    border-radius: 20px;
+    background-color: #bfbdc1;
 }
 
 section {
@@ -80,4 +84,14 @@ label {
 #display-area {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    align-self: center;
+    height: 400px;
+    width: 255px;
+}
+
+body {
+    background-color: #6d6a75;
 }

@@ -91,14 +91,14 @@ const images = [
         horns: 2
     },
     {
-        url: 'https://cdn.modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg',
+        url: 'https://www.ibexhuntspain.com/wp-content/uploads/european-mouflon-ibexhuntspain-13.jpg',
         title: 'Mouflon',
         description: 'Those horns though',
         keyword: 'mouflon',
         horns: 2
     },
     {
-        url: 'https://cdn.modernfarmer.com/wp-content/uploads/2014/08/addax.jpg',
+        url: 'https://www.czs.org/getmetafile/de7e0a5b-581b-446a-88f5-391824f07c49/addax-AA.aspx',
         title: 'Addax',
         description: 'This guy is basically extinct but survives well in captivity, so they\'re frequently found in zoos',
         keyword: 'addax',
@@ -112,7 +112,7 @@ const images = [
         horns: 2
     },
     {
-        url: 'https://cdn.modernfarmer.com/wp-content/uploads/2014/08/chameleon.jpg',
+        url: 'https://i.pinimg.com/originals/66/e4/3b/66e43bd341468f1054ee2d2e1d7c76c8.jpg',
         title: 'Happy Jackson\'s Chameleon',
         description: 'These are really common in Hawaii',
         keyword: 'chameleon',
