@@ -4,6 +4,19 @@ import images from './data/images.js';
 
 const displayArea = document.getElementById('display-area');
 
+const filter = document.getElementById('filter');
+filter.addEventListener('change', () => {
+    while (displayArea.lastElementChild) {
+        displayArea.lastElementChild.remove();
+    }
+    let filterChoice = filter.value;
+    images.forEach(element => {
+        if (element.keyword === filterChoice) {
+            displayArea.appendChild(htmlToDOM(renderDragon(element)));
+        }
+    });
+});
+
 images.forEach(element => {
     let elementHtml = renderDragon(element);
     let dom = htmlToDOM(elementHtml);
