@@ -1,12 +1,14 @@
-export const renderDragon = () => {
+//import images from '../data/images.js';
+
+export const renderDragon = (animalToRender) => {
     let html = /*html*/`
-    <article class="card">
-        <h2 class="card-title">Smaug</h2>
-        <img class="card-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg" alt="">
+    <article class="card ${animalToRender.keyword}">
+        <h2 class="card-title">${animalToRender.title}</h2>
+        <img class="card-image" src='${animalToRender.url}' alt="">
         <section>
             <h3>Description:</h3>
-            <p>Fan illustration of Smaug from 'The Hobbit'</p>
-            <aside>100</aside>
+            <p>${animalToRender.description}</p>
+            <aside>${animalToRender.horns}</aside>
         </section>
     </article>
     `;
